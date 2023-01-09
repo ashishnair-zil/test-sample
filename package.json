@@ -1,0 +1,27 @@
+{
+  "name": "test-sample",
+  "version": "1.0.0",
+  "description": "unit testing sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishnair-zil/test-sample.git"
+  },
+  "author": "Ashish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashishnair-zil/test-sample/issues"
+  },
+  "homepage": "https://github.com/ashishnair-zil/test-sample#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "supertest": "^6.3.3"
+  }
+}
